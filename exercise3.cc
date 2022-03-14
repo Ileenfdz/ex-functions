@@ -2,9 +2,18 @@
 
 using namespace std;
 
-int main(){
+void multiply(int num){
+	for(int a = 1 ; a <= 10 ; a++){
+		cout<< num * a << endl;
+	}
+}
+int	main(void){
+	int num;
+	cout<< "Dame un numero :  ";
+	cin>>num;
 
-
-    system('PAUSE');
-    return 0;
+	multiply(num) ;
+	
+	system("PAUSE");
+	return 0;
 }
