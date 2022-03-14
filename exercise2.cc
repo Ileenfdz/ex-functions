@@ -2,9 +2,20 @@
 
 using namespace std;
 
-int main(){
+int changeNum (int num){
+	num = num + 7;
+	return num;
+}
 
+int main(int){
+	int num;
 
-    system('PAUSE');
-    return 0;
+	cout<< "Dame un numero :  ";
+	cin>>num;
+	num = changeNum(num);
+
+	cout<<num<< endl;
+
+	system("PAUSE");
+	return 0;
 }
